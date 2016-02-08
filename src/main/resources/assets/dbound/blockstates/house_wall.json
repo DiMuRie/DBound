@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+    "variants": {
+		"normal": [{}],
+		"inventory": [{}],
+        "east=false,north=false,south=false,west=false": { "model": "housewall4sides" },
+        "east=false,north=true,south=false,west=false": { "model": "housewallnorth" },
+        "east=true,north=false,south=false,west=false": { "model": "housewallnorth", "y": 90 },
+        "east=false,north=false,south=true,west=false": { "model": "housewallnorth", "y": 180 },
+        "east=false,north=false,south=false,west=true": { "model": "housewallnorth", "y": 270 },
+        "east=true,north=true,south=false,west=false": { "model": "housewallnortheast" },
+        "east=true,north=false,south=true,west=false": { "model": "housewallnortheast", "y": 90 },
+        "east=false,north=false,south=true,west=true": { "model": "housewallnortheast", "y": 180 },
+        "east=false,north=true,south=false,west=true": { "model": "housewallnortheast", "y": 270 },
+        "east=false,north=true,south=true,west=false": { "model": "housewallnorthsouth" },
+        "east=true,north=false,south=false,west=true": { "model": "housewallnorthsouth", "y": 90 },
+        "east=true,north=true,south=true,west=false": { "model": "wallnorthsountheast" },
+        "east=true,north=false,south=true,west=true": { "model": "wallnorthsountheast", "y": 90 },
+        "east=false,north=true,south=true,west=true": { "model": "wallnorthsountheast", "y": 180 },
+        "east=true,north=true,south=false,west=true": { "model": "wallnorthsountheast", "y": 270 },
+        "east=true,north=true,south=true,west=true": { "model": "housewall4sides" }
+    }
+}

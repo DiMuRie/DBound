@@ -1,0 +1,7 @@
+{
+    "parent": "pane_nse",
+    "textures": {
+        "edge": "blocks/hardened_clay_stained_cyan",
+        "pane": "dbound:blocks/house_wall"
+    }
+}

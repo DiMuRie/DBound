@@ -1,0 +1,7 @@
+{
+    "parent": "pane_ns",
+    "textures": {
+        "edge": "blocks/hardened_clay_stained_cyan",
+        "pane": "dbound:rbgwall"
+    }
+}
